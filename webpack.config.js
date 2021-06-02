@@ -166,6 +166,7 @@ if(!isProduction) {
   module.exports.plugins.push(
     new webpack.HotModuleReplacementPlugin() // HMR plugin will cause problems with [chunkhash]
   );
+debugger;
 }
 
 /**
